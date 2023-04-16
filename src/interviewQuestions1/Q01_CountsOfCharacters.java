@@ -15,6 +15,9 @@ public class Q01_CountsOfCharacters {
        System.out.print("Bir string giriniz :");
        String str = scan.nextLine();
 
+       // stringi küçük harfe dönüştür
+       str = str.toLowerCase();
+
        //split()
        String arr[] = str.split(""); //her bir karakteri ayirir
 
